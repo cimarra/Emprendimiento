@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco Aloe | Jabones Artesanales de Aloe</title>
+
+    <!-- Tipografía: Poppins desde Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Framework de Iconos: Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Librería para Carrusel: Swiper.js CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Hoja de Estilos Personalizada -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ===== Loader Animado ===== -->
+    <div class="loader">
+        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="lucide lucide-leaf">
+            <path d="M11 20A7 7 0 0 1 4 13H2a10 10 0 0 0 10 10z" />
+            <path
+                d="M12 21.35A10 10 0 0 0 22 12v-2a10 10 0 0 0-10-10c-4.94 0-9.24 3.33-10 8h2a7 7 0 0 1 7-7 6.94 6.94 0 0 1 5.91 3.24.99.99 0 0 0 .09 1.52c-1 .83-2.52 1.26-4.22 1.24a7 7 0 0 0-7 7h2a5 5 0 0 1 5-5.27c1.43.1 2.92.56 4 1.27.64.41 1.11 1.04 1.24 1.78A7 7 0 0 1 12 21.35z" />
+        </svg>
+    </div>
+
+    <!-- ===== Header ===== -->
+    <header class="site-header">
+        <div class="container">
+            <a href="#" class="logo">EcoAloe</a>
+            <nav class="main-nav">
+                <a href="#productos">Fechas</a>
+                <a href="#beneficios">Beneficios</a>
+                <a href="#testimonios">Testimonios</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- ===== Hero Section ===== -->
+        <section class="hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-content container">
+                <h1 class="hero-title">Del campo a tu piel.</h1>
+                <p class="hero-subtitle">Descubre el poder regenerador del aloe vera en nuestros jabones artesanales.
+                </p>
+                <a href="#productos" class="cta-button">Explora nuestros proximos eventos</a>
+            </div>
+        </section>
+
+        <!-- ===== Sección de Productos ===== -->
+        <section id="productos" class="products-section">
+            <div class="container">
+                <h2 class="section-title">Visítanos</h2>
+                <div class="products-grid">
+                    <!-- Producto 1 -->
+                    <div class="product-card">
+                        <img src="https://osojimix.mx/wp-content/uploads/2023/04/Jabon-casero-de-Aloe-Vera.jpeg?q=tbn:ANd9GcSZyyxgGewXUL8OdsSTFoJL6Z5zjM5JyPthdw&ssauto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt="Jabón de Aloe y Menta">
+                        <div class="card-content">
+                            <h3>04 Septiembre</h3>
+                            <p>Dentro de la U.E.F.M Juan XXIII</p>
+                            <span class="price">$0.99</span>
+                            <div class="card-icons">
+                                <i data-lucide="droplets"></i>
+                                <i data-lucide="wind"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Producto 2 -->
+                    <div class="product-card">
+                        <img src="https://osojimix.mx/wp-content/uploads/2023/04/Jabon-casero-de-Aloe-Vera.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt="Jabón de Aloe y Lavanda">
+                        <div class="card-content">
+                            <h3>Feria emprendimiento</h3>
+                            <p>Dentro de la U.E.F.M Juan XXIII</p>
+                            <span class="price">$0.99</span>
+                            <div class="card-icons">
+                                <i data-lucide="droplets"></i>
+                                <i data-lucide="moon-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== Sección de Beneficios ===== -->
+        <section id="beneficios" class="benefits-section">
+            <div class="container benefits-grid">
+                <div class="benefits-image">
+                    <img src="https://images.pexels.com/photos/3968083/pexels-photo-3968083.jpeg?auto=compress&cs=tinysrgb&w=1"
+                        alt="Planta de Aloe Vera">
+                </div>
+                <div class="benefits-content">
+                    <h2 class="section-title">El Regalo del Aloe Vera</h2>
+                    <ul class="benefits-list">
+                        <li><i data-lucide="droplet"></i> <span><strong>Hidratación Profunda:</strong> Penetra en las
+                                capas de la piel para una nutrición duradera.</span></li>
+                        <li><i data-lucide="shield-check"></i> <span><strong>Efecto Calmante:</strong> Alivia
+                                irritaciones, rojeces y quemaduras solares.</span></li>
+                        <li><i data-lucide="feather"></i> <span><strong>Piel Suave y Elástica:</strong> Estimula la
+                                producción de colágeno para una piel más firme.</span></li>
+                        <li><i data-lucide="recycle"></i> <span><strong>Propiedades Regenerativas:</strong> Ayuda a
+                                cicatrizar y renovar las células de la piel.</span></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== Sección de Testimonios ===== -->
+        <section id="testimonios" class="testimonials-section">
+            <div class="container">
+                <h2 class="section-title">Lo que dicen nuestros clientes</h2>
+                <!-- Swiper -->
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <!-- Slide 1 -->
+                        <div class="swiper-slide">
+                            <p>"Desde que uso estos jabones, mi piel se siente increíblemente suave y fresca."</p>
+                            <div class="testimonial-author">
+                                <img src="https://images.pexels.com/photos/1848565/pexels-photo-1848565.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                    alt="Cliente 1">
+                                <span>Laura G.</span>
+                            </div>
+                        </div>
+                        <!-- Slide 2 -->
+                        <div class="swiper-slide">
+                            <p>"¡Increíble la calidad! Se nota que son 100% naturales. Mi piel sensible agradece el
+                                jabón de aloe puro."</p>
+                            <div class="testimonial-author">
+                                <img src="https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=400=1"
+                                    alt="Cliente 2">
+                                <span>Carlos M.</span>
+                            </div>
+                        </div>
+                        <!-- Slide 3 -->
+                        <div class="swiper-slide">
+                            <p>"Lo recomiendo totalmente."</p>
+                            <div class="testimonial-author">
+                                <img src="https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                    alt="Cliente 3">
+                                <span>Sofía R.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Swiper Navigation -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ===== Footer ===== -->
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 AuraVera. Todos los derechos reservados.</p>
+            <div class="social-links">
+                <p data-cur="cursor">
+                    <i class="fas fa-phone" data-cur="cursor"></i>
+                    Contactanos: +593 98 579 0095
+                </p>
+            </div>
+            <h3 data-cur="cursor"><i class="fas fa-map-marker-alt" data-cur="cursor"></i> Encuéntranos</h3>
+            <p data-cur="cursor">Av. Jimmy Anchico y Av. 6 de Diciembre,<br>frente al Hotel Sans -
+                Quinindé, Ecuador</p>
+            <div class="map-responsive anim-fade-in-up visible">
+                <!-- The iframe loads the map asynchronously (`loading="lazy"`), which is good for performance. -->
+                <!-- `allowfullscreen` enables the full-screen map view. -->
+                <!-- `referrerpolicy="no-referrer-when-downgrade"` is a security and privacy feature. -->
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.794862!2d-79.47242!3d0.32834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMC4zMjgzNCwgLTc5LjQ3MjQy!5e0!3m2!1ses!2sec!4v1692196234567!5m2!1ses!2sec"
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" data-cur="cursor">
+                </iframe>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- ===== Librerías JavaScript ===== -->
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <!-- ScrollReveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Swiper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Script Personalizado -->
+    <script src="script.js"></script>
+</body>
+
+</html>
